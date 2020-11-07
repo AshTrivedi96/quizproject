@@ -1,0 +1,32 @@
+<div class="row">
+    <div class="col-md-12">
+        <h1 class="text-center">Welcome to Quiz World</h1><br>
+    </div>
+</div>
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Qua tu etiam inprudens utebare non numquam. Haec quo modo conveniant, non sane intellego. In schola desinis. Illa tamen simplicia, vestra versuta. <b>Praeteritis, inquit, gaudeo.</b> <a href="http://loripsum.net/"
+        target="_blank">Rhetorice igitur, inquam, nos mavis quam dialectice disputare?</a> Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur. Duo Reges: constructio interrete. Nos quidem Virtutes sic natae sumus, ut tibi serviremus,
+    aliud negotii nihil habemus. <i>Quae duo sunt, unum facit.</i> Sed eum qui audiebant, quoad poterant, defendebant sententiam suam. </p>
+
+<p><b>Et nemo nimium beatus est;</b> Aliud igitur esse censet gaudere, aliud non dolere. Tum Triarius: Posthac quidem, inquit, audacius. <a href="http://loripsum.net/" target="_blank">Nihil illinc huc pervenit.</a> </p>
+
+<p>At certe gravius. Qui autem de summo bono dissentit de tota philosophiae ratione dissentit. Haec bene dicuntur, nec ego repugno, sed inter sese ipsa pugnant. Quorum sine causa fieri nihil putandum est. At coluit ipse amicitias. Septem autem illi non suo,
+    sed populorum suffragio omnium nominati sunt. </p>
+
+<br>
+<h4>Choose your topic Wisely</h4>
+
+<form>
+    <div class="row">
+        <div class="col-md-2">
+            <select [(ngModel)]="selectedTopic" name="topic" style="width: 100%;">
+              <option value="">Please select a topic</option>
+              <option value="angular">Angular</option>
+               <option value="javascript">Java script</option>
+            </select>
+        </div>
+        <div class="col-md-2">
+            <input class="btn btn-primary" type="submit" value="Start" (click)="onStart()" />
+        </div>
+    </div>
+</form>

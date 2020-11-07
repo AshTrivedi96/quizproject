@@ -1,0 +1,251 @@
+[{
+        "question_id": "1",
+        "question": "Which of the following is correct about Angular 2 Components?",
+        "answers": [{
+                "answer_id": "1",
+                "answer": " AngularJS had a focus of Controllers but Angular 2 has changed the focus to having components over controllers.",
+                "is_correct": false
+            },
+            {
+                "answer_id": "2",
+                "answer": "Components help to build the applications into many modules.",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3",
+                "answer": "This helps in better maintaining the application over a period of time.",
+                "is_correct": false
+            },
+            {
+                "answer_id": "4",
+                "answer": "All of the Above",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "question_id": "2",
+        "question": "Which of the following is correct about TypeScript?",
+        "answers": [{
+                "answer_id": "1",
+                "answer": "Angular is based on TypeScript.",
+                "is_correct": false
+            },
+            {
+                "answer_id": "2",
+                "answer": "This is a superset of JavaScript.",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3",
+                "answer": "TypeScript is maintained by Microsoft.",
+                "is_correct": false
+            },
+            {
+                "answer_id": "4",
+                "answer": "All of the above.",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "question_id": "3",
+        "question": "What is the decorator used for configuring your module class?",
+        "answers": [{
+                "answer_id": "1",
+                "answer": "@NgModule",
+                "is_correct": true
+            },
+            {
+                "answer_id": "2",
+                "answer": "@NgApp",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3",
+                "answer": "Both",
+                "is_correct": false
+            },
+            {
+                "answer_id": "4",
+                "answer": "None of above.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "4",
+        "question": " Which character is used for chaining multiple pipes? ",
+        "answers": [{
+                "answer_id": "1",
+                "answer": "|",
+                "is_correct": true
+            },
+            {
+                "answer_id": "2",
+                "answer": ":",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3",
+                "answer": "Both",
+                "is_correct": false
+            },
+            {
+                "answer_id": "4",
+                "answer": "None of the Above",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "5",
+        "question": "RxJS can be used for?",
+        "answers": [{
+                "answer_id": "1",
+                "answer": "Browser",
+                "is_correct": false
+            },
+            {
+                "answer_id": "2",
+                "answer": "Server Side",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3",
+                "answer": "Both",
+                "is_correct": true
+            },
+            {
+                "answer_id": "4",
+                "answer": "None of above",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "6",
+        "question": "What is .subscribe?",
+        "answers": [{
+                "answer_id": "1",
+                "answer": "Streams data in asynchronously",
+                "is_correct": false
+            },
+            {
+                "answer_id": "2",
+                "answer": "Streams data in synchronously",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3",
+                "answer": "Both",
+                "is_correct": true
+            },
+            {
+                "answer_id": "4",
+                "answer": " None of above",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "7",
+        "question": "Who is sometimes called as father of Angularjs?",
+        "answers": [{
+                "answer_id": "1",
+                "answer": "Brad Green",
+                "is_correct": false
+            },
+            {
+                "answer_id": "2",
+                "answer": "Misko Hevery",
+                "is_correct": true
+            },
+            {
+                "answer_id": "3",
+                "answer": "Brad Richardsont",
+                "is_correct": false
+            },
+            {
+                "answer_id": "4",
+                "answer": "Chuck Jazdzewski",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "8",
+        "question": "How Observables are Used?",
+        "answers": [{
+                "answer_id": "1",
+                "answer": "The Reactive Forms Module uses reactive programming and Observables for listening to user input",
+                "is_correct": false
+            },
+            {
+                "answer_id": "2",
+                "answer": "The @output() decorator in a component takes an EventEmitter instance. EventEmitter is a subclass of the RxJS Observable",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3",
+                "answer": "Both",
+                "is_correct": true
+            },
+            {
+                "answer_id": "4",
+                "answer": "None of the Above",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "9",
+        "question": " What does AOT stand for?",
+        "answers": [{
+                "answer_id": "1",
+                "answer": " ahead-of-time compilation",
+                "is_correct": true
+            },
+            {
+                "answer_id": "2",
+                "answer": "Angular Object Templates",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3",
+                "answer": "Both",
+                "is_correct": false
+            },
+            {
+                "answer_id": "4",
+                "answer": "None of the above",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "10",
+        "question": "Router is part of which of the following module?",
+        "answers": [{
+                "answer_id": "1",
+                "answer": "@angular/core",
+                "is_correct": false
+            },
+            {
+                "answer_id": "2",
+                "answer": "@angular/router",
+                "is_correct": true
+            },
+            {
+                "answer_id": "3",
+                "answer": "Both",
+                "is_correct": false
+            },
+            {
+                "answer_id": "4",
+                "answer": "None of the above",
+                "is_correct": false
+            }
+        ]
+    }
+]

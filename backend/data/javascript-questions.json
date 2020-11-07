@@ -1,0 +1,241 @@
+[{
+        "question_id": "1",
+        "question": "What is the correct JavaScript syntax to write 'Hello World'?",
+        "answers": [{
+                "answer_id": "1",
+                "answer": "document.write('Hello World')",
+                "is_correct": true
+            },
+            {
+                "answer_id": "2",
+                "answer": "System.out.println('Hello World')",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3",
+                "answer": "println ('Hello World')",
+                "is_correct": false
+            },
+            {
+                "answer_id": "4",
+                "answer": "response.write('Hello World')",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "2",
+        "question": "Which of the following event fires when the form element loses the focus: <button>, <input>, <label>, <select>, <textarea>?",
+        "answers": [{
+                "answer_id": "1",
+                "answer": "onfocus",
+                "is_correct": false
+            },
+            {
+                "answer_id": "2",
+                "answer": "onblur",
+                "is_correct": true
+            },
+            {
+                "answer_id": "3",
+                "answer": "onclick",
+                "is_correct": false
+            },
+            {
+                "answer_id": "4",
+                "answer": "ondblclick",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "3",
+        "question": "The syntax of Eval is ________________",
+        "answers": [{
+                "answer_id": "1",
+                "answer": "[objectName.]eval(numeriC.",
+                "is_correct": false
+            },
+            {
+                "answer_id": "2",
+                "answer": "[EvalName.]eval(string)",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3",
+                "answer": "[objectName.]eval(string)",
+                "is_correct": true
+            },
+            {
+                "answer_id": "4",
+                "answer": "[EvalName.]eval(numeriC.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "4",
+        "question": "In JavaScript, _________ is an object of the target language data type that encloses an object of the source language.",
+        "answers": [{
+                "answer_id": "1",
+                "answer": "a wrapper",
+                "is_correct": true
+            },
+            {
+                "answer_id": "2",
+                "answer": " a link",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3",
+                "answer": "a cursor",
+                "is_correct": false
+            },
+            {
+                "answer_id": "4",
+                "answer": "a form",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "5",
+        "question": "JavaScript entities start with _______ and end with _________.?",
+        "answers": [{
+                "answer_id": "1",
+                "answer": " Semicolon, colon",
+                "is_correct": false
+            },
+            {
+                "answer_id": "2",
+                "answer": "Semicolon, Ampersand",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3",
+                "answer": "Ampersand, colon",
+                "is_correct": false
+            },
+            {
+                "answer_id": "4",
+                "answer": "Ampersand, semicolon",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "question_id": "6",
+        "question": "Is it possible to nest functions in JavaScript?",
+        "answers": [{
+                "answer_id": "1",
+                "answer": "True",
+                "is_correct": true
+            },
+            {
+                "answer_id": "2",
+                "answer": "False",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "7",
+        "question": "Which of the following is not a valid JavaScript variable name?",
+        "answers": [{
+                "answer_id": "1",
+                "answer": "2names",
+                "is_correct": true
+            },
+            {
+                "answer_id": "2",
+                "answer": "_first_and_last_names",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3",
+                "answer": "FirstAndLast",
+                "is_correct": false
+            },
+            {
+                "answer_id": "4",
+                "answer": "None of the above",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "8",
+        "question": "______ tag is an extension to HTML that can enclose any number of JavaScript statements.",
+        "answers": [{
+                "answer_id": "1",
+                "answer": "<SCRIPT>",
+                "is_correct": true
+            },
+            {
+                "answer_id": "2",
+                "answer": "<BODY>",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3",
+                "answer": "<HEAD>",
+                "is_correct": false
+            },
+            {
+                "answer_id": "4",
+                "answer": "<TITLE>",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "9",
+        "question": "Which of the following attribute can hold the JavaScript version?",
+        "answers": [{
+                "answer_id": "1",
+                "answer": "LANGUAGE",
+                "is_correct": true
+            },
+            {
+                "answer_id": "2",
+                "answer": " SCRIPT",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3",
+                "answer": "VERSION",
+                "is_correct": false
+            },
+            {
+                "answer_id": "4",
+                "answer": "None of the above",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "10",
+        "question": "Which of the following is a capability of functions in JavaScript?",
+        "answers": [{
+                "answer_id": "1",
+                "answer": "Accept parameters",
+                "is_correct": true
+            },
+            {
+                "answer_id": "2",
+                "answer": "Return a value",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3",
+                "answer": "Accept parameters and Return a value",
+                "is_correct": false
+            },
+            {
+                "answer_id": "4",
+                "answer": "None of the above",
+                "is_correct": false
+            }
+        ]
+    }
+]

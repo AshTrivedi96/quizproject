@@ -1,0 +1,50 @@
+<div class="row">
+    <div class="col-md-12">
+        <h1 class="text-center">Quiz Result</h1><br>
+    </div>
+</div>
+<div class="row">
+    <div class="card border-primary col-md-3">
+        <div class="card-body text-primary">
+            <h5 class="card-title">Total score</h5>
+            <p class="card-text">{{totalScore}}</p>
+        </div>
+    </div>
+    <div class="card border-success col-md-3">
+        <div class="card-body text-success">
+            <h5 class="card-title">Correct Answers</h5>
+            <p class="card-text">{{correctAnswers}}</p>
+        </div>
+    </div>
+
+    <div class="card border-danger col-md-3">
+        <div class="card-body text-danger">
+            <h5 class="card-title">Wrong Answers</h5>
+            <p class="card-text">{{wrongAnswers}}</p>
+        </div>
+    </div>
+
+    <div class="card border-{{resultClass}} col-md-3">
+        <div class="card-body text-{{resultClass}}">
+            <h5 class="card-title">Result</h5>
+            <p class="card-text">{{resultMessage}}</p>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <h2 class="text-primary">Answers</h2>
+    <div class="col-md-12" *ngFor="let question of questions">
+        <div class="card col-md-12">
+            <div class="card-header">
+                <span class="badge">{{question.question_id}}</span>
+                <span class="question">{{question.question}}</span>
+            </div>
+            <div class="col-md-12 list-group-item" *ngFor="let answer of question.answers">
+
+                <input disabled [(ngModel)]="question.selectedAnswer" type="radio" id="answer_{{answer.answer_id}}" name="{{question.question_id}}" value="{{answer.answer_id}}">
+                <label [className]="answer.is_correct ? 'text-success answerLabel' : answer.answer_id == question.selectedAnswer ? 'text-danger answerLabel' : 'answerLabel'" for="answer_{{answer.answer_id}}">{{answer.answer}}</label><br>
+
+            </div>
+        </div>
+    </div>
+</div>
