@@ -3,30 +3,46 @@
         <h1 class="text-center">Welcome to Quiz World</h1><br>
     </div>
 </div>
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Qua tu etiam inprudens utebare non numquam. Haec quo modo conveniant, non sane intellego. In schola desinis. Illa tamen simplicia, vestra versuta. <b>Praeteritis, inquit, gaudeo.</b> <a href="http://loripsum.net/"
-        target="_blank">Rhetorice igitur, inquam, nos mavis quam dialectice disputare?</a> Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur. Duo Reges: constructio interrete. Nos quidem Virtutes sic natae sumus, ut tibi serviremus,
-    aliud negotii nihil habemus. <i>Quae duo sunt, unum facit.</i> Sed eum qui audiebant, quoad poterant, defendebant sententiam suam. </p>
+<div class="content">
+    <h3 id="introduction-to-angular-concepts">Introduction to Angular concepts</h3>
 
-<p><b>Et nemo nimium beatus est;</b> Aliud igitur esse censet gaudere, aliud non dolere. Tum Triarius: Posthac quidem, inquit, audacius. <a href="http://loripsum.net/" target="_blank">Nihil illinc huc pervenit.</a> </p>
+    <p>Angular is a platform and framework for building single-page client applications using HTML and TypeScript. Angular is written in TypeScript. It implements core and optional functionality as a set of TypeScript libraries that you import into your
+        apps.
+    </p>
+    <p>The architecture of an Angular application relies on certain fundamental concepts. The basic building blocks of the Angular framework are Angular components that are organized into <em>NgModules</em>. NgModules collect related code into functional
+        sets; an Angular app is defined by a set of NgModules. An app always has at least a <em>root module</em> that enables bootstrapping, and typically has many more <em>feature modules</em>.</p>
+    <ul>
+        <li>
+            <p>Components define <em>views</em>, which are sets of screen elements that Angular can choose among and modify according to your program logic and data.</p>
+        </li>
+        <li>
+            <p>Components use <em>services</em>, which provide specific functionality not directly related to views. Service providers can be <em>injected</em> into components as <em>dependencies</em>, making your code modular, reusable, and efficient.</p>
+        </li>
+    </ul>
 
-<p>At certe gravius. Qui autem de summo bono dissentit de tota philosophiae ratione dissentit. Haec bene dicuntur, nec ego repugno, sed inter sese ipsa pugnant. Quorum sine causa fieri nihil putandum est. At coluit ipse amicitias. Septem autem illi non suo,
-    sed populorum suffragio omnium nominati sunt. </p>
+    <div>
+        <h3>Introduction to JavaScript</h3>
+        <p>JavaScript powers the interactivity and the user experience on every major website. From user interfaces that provide richer desktop-like experiences to real-time data and messaging applications, you'll find JavaScript in the browser, on your
+            phone and on the server.
 
-<br>
-<h4>Choose your topic Wisely</h4>
+            <p>In this track we'll introduce you to the JavaScript language, jQuery, the popular JavaScript framework and the ins-and-outs of adding interactivity in the browser.</p>
 
-<form>
-    <div class="row">
-        <div class="col-md-2">
-            <select [(ngModel)]="selectedTopic" name="topic" style="width: 100%;">
+            <p> You'll also learn the fundamentals of programming by learning this fun and easy-to-get-started with language.</p>
+    </div>
+    <br>
+    <h4>Choose your topic Wisely</h4>
+
+    <form>
+        <div class="row">
+            <div class="col-md-2">
+                <select [(ngModel)]="selectedTopic" name="topic" style="width: 100%;">
               <option value="">Please select a topic</option>
               <option value="angular">Angular</option>
                <option value="javascript">Java script</option>
             </select>
+            </div>
+            <div class="col-md-2">
+                <input class="btn btn-primary" [disabled]="!selectedTopic" type="submit" value="Start" (click)="onStart()" />
+            </div>
         </div>
-        <div class="col-md-2">
-            <input class="btn btn-primary" type="submit" value="Start" (click)="onStart()" />
-        </div>
-    </div>
-</form>
+    </form>
