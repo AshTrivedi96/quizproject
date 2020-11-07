@@ -19,14 +19,10 @@ successAnswers = 0;
       this.topic = params['topic'];
   });
 
-    console.log('On ng init called');
     this.service.getQuestions(this.topic)
     .subscribe((questions: Question[]) => {
-      console.log(questions);
       this.questions = questions;
-      for(let question of this.questions) {
-        question.selectedAnswer = "1";
-      }
+
     });
     console.log(this.questions);
   }
